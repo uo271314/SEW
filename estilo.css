@@ -1,0 +1,81 @@
+  body {
+        font: 400 15px Arial,sans-serif; 
+        line-height: 1.8;
+        color: #000;
+        background-color: #F2E7BF;
+  }
+
+  h1 {
+        background-color:#FF5733; 
+        color: #F2E7BF;
+        text-transform: uppercase;
+        padding: 50px 25px;     
+        margin: 5px;
+        text-align: center;
+        border: 3px solid white;
+  }
+
+  section {
+      padding-right: 10em;
+      padding-left: 8em;
+      padding-top: 5em;
+      padding-bottom: 5em;
+  }
+
+  
+  h2:before {
+      content:"• ";
+  }
+
+  h3:before {
+      content:"• ";
+  }
+
+  h2,h3 {
+        color: #FF5733;
+        padding: 10px 25px;
+        text-align: left;     
+  }
+
+  ul {
+        list-style: none; /* Remove default bullets */
+  }
+  ul li::before {
+        content: "\2022";
+        color: #FF5733;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+  }
+
+  table{
+        width: 75%;
+        text-align: center;
+        border: 1px solid #FF5733;
+        margin: 0 auto;
+  }
+  thead{
+        color: #FF5733;
+  }
+  th,td{
+        border: 1px solid #FF5733;
+  }
+
+  a:link{
+        color: #FF5733;
+  }
+  a:visited{
+        color: black;
+  }
+
+  img,video,audio{
+      display:block;
+      margin:auto;
+  }
+  figcaption{
+        text-align: center;
+  }
+  
+
+

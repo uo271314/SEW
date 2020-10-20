@@ -1,0 +1,23 @@
+#menuNav {
+    display: flex;
+    flex-flow: row;
+    float: left;
+ }
+
+ #menuNavPags {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    left:35%;
+    border: 2px solid #FF5733;
+    width: 400px;
+ }
+
+ #contenido {
+     float: none;
+ }
+
+ #titulo{
+    float: none;
+    width: 100%;
+ }
