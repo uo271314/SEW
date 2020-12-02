@@ -1,0 +1,17 @@
+#ubicacion{
+    border: solid 2px black;
+    width: 500px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(160, 160, 160);
+    color:black;
+    margin: 0 auto;
+}
+.btn{
+    background-color:  black;
+    color:rgb(160, 160, 160);
+}
+.msg{
+    text-transform: uppercase;
+    font-weight: bold;
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Rutas</name>
+	<gx:CascadingStyle kml:id="estilo">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2f2fd3</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Placemark>
+		<name>Tren de los lagos</name>
+		<styleUrl>#estilo</styleUrl>
+		<LineString>
+			<coordinates>
+				0.63214,41.62109,155
+				0.882954,42.058671,396
+				0.891122,42.167325,468
+				0.965748,42.239888,524
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Tren transcantabrico</name>
+		<styleUrl>#estilo</styleUrl>
+		<LineString>
+			<coordinates>
+				-5.581578,42.595374,837
+				-5.130800,42.803160,939
+				-3.283462,43.100600,319
+				-2.949174,43.260419,19
+				-3.809720,43.459325,15
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Tren ave Madrid-Valencia</name>
+		<styleUrl>#estilo</styleUrl>
+		<LineString>
+			<coordinates>
+				-3.594879,40.465421,667
+				-3.594879,40.465421,667
+				-3.690563,40.406392,667
+				-0.381747,39.459986,102
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Tren Torano-Ribadesella</name>
+		<styleUrl>#estilo</styleUrl>
+		<LineString>
+			<coordinates>
+				-5.118387,43.412217,20
+				-5.073760,43.431611,600
+				-5.055697,43.440796,20
+				-5.054670,43.459477,897
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document></kml>

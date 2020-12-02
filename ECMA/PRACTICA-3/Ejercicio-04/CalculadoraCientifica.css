@@ -1,0 +1,70 @@
+#interfaz{
+    background-color:darksalmon;;
+    color: black;
+    border-left: 10px;
+    width: 400px;
+    height: 510px;
+    text-align: center;
+}
+#interfazCalculadora{
+    background-color:  rgb(175, 175, 175);
+    color: inherit;
+    width: 350px;
+    height: 446px;
+    margin: 0 auto;
+}
+#interfazPantalla{
+    border-spacing: 0px 0px;
+    background-color: rgb(175, 175, 175);
+    color: inherit;
+}
+#pantalla{
+    height: 70px;
+    width: 330px;
+    color: black;
+    font-weight: 500;
+    font-size: 42px;
+    text-align: right;
+    background-color: rgb(175, 175, 175);
+    padding-right: 10px;
+    border: none;
+}
+#interfazTeclas{
+    border-spacing: 1px 1px;
+    margin: 0 auto;
+}
+.btnPantalla{
+    background-color:rgb(175, 175, 175);
+    color: black;
+    width: 55px;
+    height: 30px;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+.btnPantallaD{
+    background-color:rgb(195, 195, 195);
+    color: gray;
+    width: 55px;
+    height: 30px;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+.btnDigito{
+    background-color: rgb(238, 238, 238);
+    color: black;
+    width: 66px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    border: inherit;
+}
+.btnAccion{
+    background-color: rgb(211, 211, 211);
+    color: black;
+    width: 66px;
+    height: 40px;
+    font-size: 13px;
+    border: inherit;
+}

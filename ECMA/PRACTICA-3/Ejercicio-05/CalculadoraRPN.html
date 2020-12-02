@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 5</title>
+    <meta name="author" content="Laura Delgado"/>
+    <meta name="desciption" content="Bloque 3 SEW"/>
+ 
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Calculadora.css" />
+    <script src="Calculadora.js"></script>
+</head>
+   
+<body>
+    <section id="interfaz">
+        <h1>Calculadora RPN</h1> 
+        <div id="interfazCalculadora">
+            <form>
+                <div id="pantalla">
+                    <textarea id="numpant" disabled></textarea><textarea id="pant" disabled></textarea>
+                </div>
+
+                <div id="escrito">
+                    <input type="text" id="txtescrito" disabled />
+                </div>
+
+                <table id="teclasOpComplejas">
+                    <tr>
+                        <td><input type="button" value="LOG" onClick = "LOGClick()" class="btnOpCompleja"></td>
+                        <td><input type="button" value="LN" onClick = "LNClick()" class="btnOpCompleja"></td>
+                        <td><input type="button" value="C" onClick = "CClick()" class="btnOpCompleja"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="SIN" onClick = "SINClick()" class="btnOpCompleja"></td>
+                        <td><input type="button" value="COS" onClick = "COSClick()" class="btnOpCompleja"></td>
+                        <td><input type="button" value="TAN" onClick = "TANClick()" class="btnOpCompleja"></td>
+                        <td><input type="button" value="RESET" onClick = "RESETClick()" class="btnOpCompleja"></td>
+                    </tr>
+                </table>
+
+                <table id="teclasOp">
+                    <tr>
+                        <td><input type="button" value="7" onClick = "sieteClick()" class="btnNum"></td>
+                        <td><input type="button" value="8" onClick = "ochoClick()" class="btnNum"></td>
+                        <td><input type="button" value="9" onClick = "nueveClick()" class="btnNum"></td>
+                        <td><input type="button" value="%" onClick = "divClick()" class="btnOp"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="4" onClick = "cuatroClick()" class="btnNum"></td>
+                        <td><input type="button" value="5" onClick = "cincoClick()" class="btnNum"></td>
+                        <td><input type="button" value="6" onClick = "seisClick()" class="btnNum"></td>
+                        <td><input type="button" value="x" onClick = "mulClick()" class="btnOp"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="1" onClick = "unoClick()" class="btnNum"></td>
+                        <td><input type="button" value="2" onClick = "dosClick()" class="btnNum"></td>
+                        <td><input type="button" value="3" onClick = "tresClick()" class="btnNum"></td>
+                        <td><input type="button" value="-" onClick = "menosClick()" class="btnOp"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="0" onClick = "ceroClick()" class="btnNum"></td>
+                        <td><input type="button" value="," onClick = "comaClick()" class="btnNum"></td>
+                        <td><input type="button" value="Enter" onClick = "EnterClick()" class="btnEnter"></td>
+                        <td><input type="button" value="+" onClick = "sumaClick()" class="btnOp"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        function LOGClick(){
+            calculadora.log();
+        }
+        function LNClick(){
+            calculadora.ln();
+        }
+        function SINClick(){
+            calculadora.sin();
+        }
+        function COSClick(){
+            calculadora.cos();
+        }
+        function TANClick(){
+            calculadora.tan();
+        }
+        function sieteClick(){
+            calculadora.digito("7");
+        }
+        function ochoClick(){
+            calculadora.digito("8");
+        }
+        function nueveClick(){
+            calculadora.digito("9");
+        }
+        function divClick(){
+            calculadora.div();
+        }
+        function cuatroClick(){
+            calculadora.digito("4");
+        }
+        function cincoClick(){
+            calculadora.digito("5");
+        }
+        function seisClick(){
+            calculadora.digito("6");
+        }
+        function mulClick(){
+            calculadora.mul();
+        }
+        function unoClick(){
+            calculadora.digito("1");
+        }
+        function dosClick(){
+            calculadora.digito("2");
+        }
+        function tresClick(){
+            calculadora.digito("3");
+        }
+        function menosClick(){
+            calculadora.menos();
+        }
+        function ceroClick(){
+            calculadora.digito("0");
+        }
+        function comaClick(){
+            calculadora.coma();
+        }
+        function EnterClick(){
+            calculadora.enter();
+        }
+        function sumaClick(){
+            calculadora.suma();
+        }
+        function CClick(){
+            calculadora.borrar();
+        }
+        function RESETClick(){
+            calculadora.reset();
+        }
+    </script>
+</body>
+</html>

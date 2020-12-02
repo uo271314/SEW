@@ -1,0 +1,13 @@
+#mapa {
+    height: 380px;
+    width: 90%;
+    margin: 0 auto;
+}
+#t4{
+    text-align: center;
+    color:rgb(102, 102, 102);
+    background-color: rgb(252, 255, 90);
+    border: solid 2px rgb(102, 102, 102);
+    width: 800px;
+    margin-left: 20%;
+}

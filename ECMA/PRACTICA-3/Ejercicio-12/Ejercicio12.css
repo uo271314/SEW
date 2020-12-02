@@ -1,0 +1,17 @@
+#archivos{
+    text-align: center;
+    color:rgb(0, 16, 49);
+    background-color: rgb(85, 153, 255);
+    border: solid 2px rgb(0, 16, 49);
+    width: 80%;
+    margin: 0 auto;
+}
+#areaTexto{
+    text-align: left;
+    color:rgb(0, 16, 49);
+    background-color: rgb(85, 153, 255);
+    border: solid 2px rgb(0, 16, 49);
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}

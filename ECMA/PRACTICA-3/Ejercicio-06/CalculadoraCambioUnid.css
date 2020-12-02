@@ -1,0 +1,62 @@
+#interfaz{
+    background-color:darksalmon;;
+    color: black;
+    border-left: 10px;
+    width: 400px;
+    height: 375px;
+    text-align: center;
+}
+h2{
+    color:rgb(41, 41, 41);
+    background-color: inherit;
+}
+#interfazCalculadora{
+    background-color:  rgb(175, 175, 175);
+    color: inherit;
+    width: 350px;
+    height: 230px;
+    margin: 0 auto;
+    border-radius:1em;
+    padding-top: 10px;
+}
+#conversor{
+    padding-bottom: 20px;
+}
+#introduce{
+    border-radius:1em;
+    width: 140px;
+    height: 30px;
+}
+select{
+    border-radius:1em;
+    width: 120px;
+    height: 30px;
+    text-align-last: center;
+    background-color:darksalmon;
+    color: black;
+}
+#convertirA{
+    padding-top: 20px;
+}
+#txtConv{
+    padding-bottom: 5px;
+}
+#cbConv{
+    padding-bottom: 25px;
+}
+#resultado{
+    border-radius:1em;
+    width: 200px;
+    height: 30px;
+    background-color:rgb(221, 184, 172) ;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+.btn{
+    border-radius:1em;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(41, 41, 41);
+    color:white;
+}

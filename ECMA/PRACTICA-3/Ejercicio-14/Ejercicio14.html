@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 14</title>
+    <meta name="author" content="Laura Delgado"/>
+    <meta name="desciption" content="Bloque 3 SEW"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio14.css"/> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=miMapa.initMap"></script>
+</head>
+
+<body>
+   <h1>Encuesta turismo asturiano</h1>
+   <h2>Ordene las ciudades (arrastrando) según sus preferencias a la hora de viajar </h2>
+  <ul id="sortable">
+    <li class="ui-state-default">Oviedo</li>
+    <li class="ui-state-default">Gijón</li>
+    <li class="ui-state-default">Villaviciosa</li>
+    <li class="ui-state-default">Avilés</li>
+  </ul>
+
+
+  <h3>Imágenes de ciudades asturianas</h3>
+  <div id="elegir">
+      <input type="radio" id="Gijón" name="sitio" value="Gijón" onClick="imagen.actualiza()" checked>
+      <label for="Gijón">Gijón</label>
+      <input type="radio" id="Oviedo" name="sitio" value="Oviedo" onClick="imagen.actualiza()">
+      <label for="Oviedo">Oviedo</label>
+      <input type="radio" id="Villaviciosa" name="sitio" value="Villaviciosa" onClick="imagen.actualiza()">
+      <label for="Villaviciosa">Villaviciosa</label>
+      <input type="radio" id="Avilés" name="sitio" value="Avilés" onClick="imagen.actualiza()">
+      <label for="Avilés">Avilés</label>
+  </div>
+
+  <div id="ref"></div>
+
+  <script src="Ejercicio14.js"></script> 
+  <section id=t4>
+        <h1>Localice las ciudades respecto a su posición:</h1>
+        <div id="mapa"></div>
+  </section>
+</body>
+</html>

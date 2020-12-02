@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 7</title>
+    <meta name="author" content="Laura Delgado"/>
+    <meta name="desciption" content="Bloque 3 SEW"/>
+ 
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+    <!-- JQuery-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio7.js"></script>
+</head>
+   
+<body>
+    <h1>Ejercicio 7</h1>
+    <h2 id="tituloH2">Probando JQuery</h2>
+    <p id="parrafo">Primer ejercicio usando JQuery.</p>
+
+    <section id="tarea1">
+    <h3>Tarea 1:</h3>
+    <div id="izq">
+        <h3>Programadores implicados:</h3>
+        <table id="programadores">
+            <tr>
+                <th>Nombre</th>
+                <th>Género</th>
+            </tr>
+            <tr id="1">
+                <td>Ana</td>
+                <td>Mujer</td>
+            </tr>
+            <tr id="2">
+                <td>Ruth</td>
+                <td>Mujer</td>
+            </tr>
+            <tr id="3">
+                <td>Pedro</td>
+                <td>Hombre</td>
+            </tr>
+            <tr id="4">
+                <td>Sara</td>
+                <td>Mujer</td>
+            </tr>
+            <tr id="5">
+                <td>Juan</td>
+                <td>Hombre</td>
+            </tr>
+            <tr id="6">
+                <td>Matías</td>
+                <td>Hombre</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="dch">
+        <h3>Resultados obtenidos:</h3>
+        <table id="tiempos">
+            <tr><th>Tiempos de ejecución</th></tr>
+            <tr id="t1"><td>3:00</td></tr>
+            <tr id="t2"><td>0:56</td></tr>
+            <tr id="t3"><td>3:42</td></tr>
+            <tr id="t4"><td>2:20</td></tr>
+            <tr id="t5"><td>0:05</td></tr>
+            <tr id="t6"><td>1:00</td></tr>
+            <tr id="t7"><td>2:42</td></tr>
+            <tr id="t8"><td>0:12</td></tr>
+            <tr id="t9"><td>2:49</td></tr>
+            <tr id="t10"><td>3:26</td></tr>
+        </table>
+    </div>
+
+    <div id="acciones">
+        <table>
+            <tr><td><button id="OcultarMujeres">Ocultar mujeres</button></td></tr>
+            <tr><td><button id="OcultarHombres">Ocultar hombres</button></td></tr>
+            <tr><td><button id="MostrarProgramadores">Mostrar programadores</button></td></tr>
+            <tr><td><button id="MostrarTiempos">Mostrar tiempos ejecución</button></td></tr>
+            <tr><td><button id="MostrarTiemposSinError">Tiempos sin errores</button></td></tr>
+            <tr><td><button id="MostrarTiemposConError">Tiempos erróneos</button></td></tr>
+        </table>
+    </div>
+    </section>
+
+   <section id="tarea2">
+        <h3>Tarea 2:</h3>
+        <div id="modH2">
+            <label for="modificaTitulo">Cambiar título h2 de la página: </label><input type="text" id="modificaTitulo"/>
+            <input type="button" id="ingresarModTit" Value="Ingresar" onclick="modificarTitulo()"/>
+        </div>
+        <div id="modP">
+            <label for="modificaParrafo">Cambiar párrafo de la página: </label><input type="text" id="modificaParrafo"/>
+            <input type="button" id="ingresarParrafo" Value="Ingresar" onclick="modificarParrafo()"/>
+        </div>
+    </section> 
+
+    <section id="tarea3">
+        <h3>Tarea 3:</h3>
+        <button id="saluda">Saluda en rosa</button>
+    </section>
+
+    <section id="tarea4">
+        <h3>Tarea 4:</h3>
+        <button id="eliminaSaludo">Retira saludo</button>
+    </section>
+
+    <section id="tarea5">
+        <h3>Tarea 5:</h3>
+        <button id="recorridoValores">Etiquetas cada elemento</button>
+    </section>
+
+    <section id="tarea6">
+        <h3>Tarea 6:</h3>
+        <h4>Tabla números:</h4>
+        <table id="numeros">
+            <tr><td class="n">5</td><td class="n">4</td><td class="n">5</td></tr>
+            <tr><td class="n">2</td><td class="n">1</td><td class="n">9</td></tr>
+            <tr><td class="n">8</td><td class="n">6</td><td class="n">3</td></tr>
+            <tr><td class="n">0</td><td class="n">1</td><td class="n">2</td></tr>
+        </table>
+        <button id="suma">Suma filas y columnas</button>
+        <input type="text" id="resultado" disabled/>
+    </section>
+</body>
+</html>

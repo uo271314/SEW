@@ -1,0 +1,63 @@
+#interfaz{
+    background-color:darksalmon;
+    color: black;
+    border-left: 10px;
+    width: 300px;
+    height: 370px;
+}
+body{
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+}
+#interfazCalculadora{
+    border-radius:1em;
+    background-color: darkslategrey;
+    color: inherit;
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+}
+#interfazPantalla{
+    border-spacing: 17px 20px;
+
+}
+#interfazTeclas{
+    border-spacing: 10px 8px;
+
+}
+#pantalla{
+    height: 40px;
+    width: 185px;
+    color: white;
+    background-color: rgb(175, 175, 175);
+}
+.btnMemoria{
+    background-color: darkslategray;
+    color: white;
+    border-radius:2em;
+    width: 40px;
+    height: 30px;
+}
+.btnOperador{
+    background-color: firebrick;
+    color: black;
+    border-radius:2em;
+    width: 40px;
+    height: 30px;
+}
+.btnDigito{
+    background-color: rgb(175, 175, 175);
+    color: white;
+    border-radius:2em;
+    width: 40px;
+    height: 30px;
+}
+.btnIgual{
+    background-color: rgb(175, 175, 175);
+    color: black;
+    border-radius:2em;
+    width: 40px;
+    height: 30px;
+}

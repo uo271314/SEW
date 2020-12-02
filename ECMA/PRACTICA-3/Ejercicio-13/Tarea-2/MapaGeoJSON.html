@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 13</title>
+    <meta name="author" content="Laura Delgado"/>
+    <meta name="desciption" content="Bloque 3 SEW"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="MapaGeoJSON.css"/> 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtF0HSYfDaXjyc_GcuBioFAfXEa3Gpaj4&v=3.exp"></script>
+    <script src="MapaGeoJSON.js"></script> 
+</head>
+
+<body>  
+    <input id="archivosSubidos" type="file" name="Archivos" onchange="mapa.procesar(this.files)">
+    <section id="mapa">
+        <h1>Rutas GEOJSON</h1>
+        <p id="map"></p>
+    </section>   
+</body>
+</html>

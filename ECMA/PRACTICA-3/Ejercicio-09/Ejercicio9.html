@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 9</title>
+    <meta name="author" content="Laura Delgado"/>
+    <meta name="desciption" content="Bloque 3 SEW"/>
+    
+    <!-- JQuery-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio9.css" />
+    <script src="Ejercicio9.js"></script>
+</head>
+
+<body>
+    <h1>Tren transcantábrico</h1>
+    <h2>Información meteorológica</h2>
+    <button id = "cargarXMLLeón" onclick = "new Meteo(meteoLeón)">Obtener datos León</button> 
+    <button id = "cargarXMLCistierna" onclick = "new Meteo(meteoCistierna)">Obtener datos Cistierna</button> 
+    <button id = "cargarXMLVillasanaDeMena" onclick = "new Meteo(meteoVillasanaDeMena)">Obtener datos Villasana de Mena</button> 
+    <button id = "cargarXMLBilbao" onclick = "new Meteo(meteoBilbao)">Obtener datos Bilbao</button> 
+    <button id = "cargarXMLSantander" onclick = "new Meteo(meteoSantander)">Obtener datos Santander</button> 
+    <p id="datos"></p>
+</body>
+</html>

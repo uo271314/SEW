@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 8</title>
+    <meta name="author" content="Laura Delgado"/>
+    <meta name="desciption" content="Bloque 3 SEW"/>
+    
+    <!-- JQuery-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio8.css" />
+    <script src="Ejercicio8.js"></script>
+</head>
+
+<body>
+    <h1>Ruta de los lagos</h1>
+    <h2>Información meteorológica</h2>
+    <button id = "cargarJSONLleida" onclick = "new Meteo(meteoLleida)">Obtener datos Lleida</button> 
+    <button id = "cargarJSONCellers" onclick = "new Meteo(meteoCellers)">Obtener datos Cellers</button> 
+    <button id = "cargarJSONTremp" onclick = "new Meteo(meteoTremp)">Obtener datos Tremp</button> 
+    <p id="datos"></p>
+</body>
+</html>

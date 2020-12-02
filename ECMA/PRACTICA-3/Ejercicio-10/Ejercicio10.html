@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 10</title>
+    <meta name="author" content="Laura Delgado"/>
+    <meta name="desciption" content="Bloque 3 SEW"/>
+    
+    <!-- JQuery-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio10.css" />
+</head>
+
+<body>
+    <h1>Imágenes de equipos de fútbol asturianos</h1>
+    <div id="elegir">
+        <input type="radio" id="Sporting" name="equipo" value="Sporting de Gijón" onClick="ej10.actualiza()" checked>
+        <label for="Sporting">Sporting</label>
+        <input type="radio" id="Oviedo" name="equipo" value="Real Oviedo" onClick="ej10.actualiza()">
+        <label for="Oviedo">Oviedo</label>
+        <input type="radio" id="Lealtad" name="equipo" value="cd Lealtad" onClick="ej10.actualiza()">
+        <label for="Lealtad">Lealtad</label>
+    </div>
+
+    <div id="lugar">
+        <h2 id="Zona">ValorDefecto</h2>
+        <div id="emblematico"></div>
+    </div>
+
+    <div id="ref"></div>
+    <script src="Ejercicio10.js"></script>
+</body>
+</html>

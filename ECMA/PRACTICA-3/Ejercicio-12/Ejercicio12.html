@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 12</title>
+    <meta name="author" content="Laura Delgado"/>
+    <meta name="desciption" content="Bloque 3 SEW"/>
+ 
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="Ejercicio12.css" />
+    <script src="Ejercicio12.js"></script>
+</head>
+
+<body onload="ej12.calcularTamañoArchivos();">
+    <p>API File: Selecionar varios archivos de la máquina cliente</p>
+    <p><input id="subirArchivos" type="file" name="Archivos" onchange="ej12.calcularTamañoArchivos();" multiple></p>
+    <p>Archivos seleccionados: <span id="numero">0</span></p>
+    <p>Tamaño total: <span id="tamaño">0</span></p>
+    <span id="nombres"></span>
+    <p id="contenidoArchivo"></p>
+    <pre id="areaTexto"></pre>
+</body>
+</html>

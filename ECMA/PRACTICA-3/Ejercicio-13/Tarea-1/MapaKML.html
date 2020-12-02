@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 13</title>
+    <meta name="author" content="Laura Delgado"/>
+    <meta name="desciption" content="Bloque 3 SEW"/>
+ 
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="MapaKML.css" />
+    <script src="Lectura.js"></script>
+    <script src="Mapa.js"></script>
+</head>
+
+<body>
+<p>Seleccione un archivo kml: </p>
+    
+<input type="file" id="archivoTexto" onchange="lectura.leerArchivoKml(this.files);">
+<div id="mapa"></div>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=miMapa.initMap"></script>
+<p>Coordenadas kml:</p>  
+<p id="coord"></p> 
+
+<p id="nombreArchivo"></p>
+<p id="tamañoArchivo"></p>
+<p id="tipoArchivo"></p>
+<p id="ultimaModificacion"></p>
+<p id="contenidoArchivo"></p>  
+<pre id="areaTexto"></pre>
+<p id="errorLectura"></p>
+</body>
+</html>

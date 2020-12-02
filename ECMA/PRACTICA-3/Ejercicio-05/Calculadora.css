@@ -1,0 +1,84 @@
+#interfaz{
+    background-color:darksalmon;;
+    color: black;
+    border-left: 10px;
+    width: 400px;
+    height: 430px;
+    text-align: center;
+}
+#interfazCalculadora{
+    background-color:  rgb(175, 175, 175);
+    color: inherit;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    border-radius:1em;
+    padding-top: 10px;
+}
+#txtescrito{
+    position: absolute;
+    margin-left: 70px;
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+}
+#numpant{
+    background-color: white;
+    color: black;
+    height: 130px;
+    width: 30px;
+    border:none;
+    text-align: left;
+    margin-bottom: 0px;
+    resize: none;
+    overflow:hidden;
+}
+#pant{
+    background-color: white;
+    color: black;
+    width: 280px;
+    height: 130px;
+    border: none;
+    text-align: end;
+    resize: none;
+    overflow:hidden;
+}
+#teclasOpComplejas{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 3px;
+}
+.btnOpCompleja{
+    background-color: gray;
+    color:firebrick;
+    border-radius:0.5em;
+    width: 45px;
+    height: 20px;
+    font-size: 9px;
+    font-weight: bolder;
+}
+#teclasOp{
+    margin: 0 auto;
+}
+.btnOp{
+    background-color:gray;
+    color:black;
+    border-radius:1em;
+    width: 70px;
+    height: 30px;
+}
+.btnEnter{
+    background-color:firebrick;
+    color:white;
+    border-radius: 0.5em;
+    width: 70px;
+    height: 30px;
+}
+.btnNum{
+    background-color: gray;
+    color:black;
+    border-radius:1em;
+    font-weight: bolder;
+    width: 70px;
+    height: 30px;
+}

@@ -1,0 +1,30 @@
+#mapa {
+    height: 380px;
+    width: 90%;
+    margin: 0 auto;
+}
+#t4{
+    text-align: center;
+    color:rgb(6, 58, 14);
+    background-color: rgb(78, 169, 126);
+    border: solid 2px rgb(6, 58, 14);
+    width: 800px;
+    margin-left: 20%;
+}
+#elegir{
+    padding-bottom: 20px;
+    text-align: center;
+}
+h1,h3{
+    color: rgb(6, 58, 14);
+    text-align: center;
+    background-color: inherit;
+}
+#ref{
+    border: solid 2px rgb(6, 58, 14);
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(78, 169, 126);
+    color:rgb(6, 58, 14);
+    margin: 0 auto;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 3</title>
+    <meta name="author" content="Laura Delgado"/>
+    <meta name="desciption" content="Bloque 3 SEW"/>
+ 
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
+    <script src="CalculadoraBasica.js"></script>
+</head>
+   
+<body>
+    <section id = "interfaz">
+        <h1>Calculadora Básica</h1> 
+        <div id = "interfazCalculadora">
+            <form>
+                <table id="interfazPantalla">
+                    <tr>
+                        <td><input type="text" id="pantalla" disabled /></td>
+                    </tr>
+                </table>
+
+                <table id="interfazTeclas">
+                    <tr>
+                        <td><input type="button" value="mrc" onClick = "mrcClick()" class="btnMemoria"></td>
+                        <td><input type="button" value="m-" onClick = "mMenosClick()" class="btnMemoria"></td>
+                        <td><input type="button" value="m+" onClick = "mMasClick()" class="btnMemoria"></td>
+                        <td><input type="button" value="/" onClick = "divClick()" class="btnOperador"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="button" value="7" onClick = "sieteClick()" class="btnDigito"></td>
+                        <td><input type="button" value="8" onClick = "ochoClick()" class="btnDigito"></td>
+                        <td><input type="button" value="9" onClick = "nueveClick()" class="btnDigito"></td>
+                        <td><input type="button" value="*" onClick = "mulClick()" class="btnOperador"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="button" value="4" onClick = "cuatroClick()" class="btnDigito"></td>
+                        <td><input type="button" value="5" onClick = "cincoClick()" class="btnDigito"></td>
+                        <td><input type="button" value="6" onClick = "seisClick()" class="btnDigito"></td>
+                        <td><input type="button" value="-" onClick = "menosClick()" class="btnOperador"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="button" value="1" onClick = "unoClick()" class="btnDigito"></td>
+                        <td><input type="button" value="2" onClick = "dosClick()" class="btnDigito"></td>
+                        <td><input type="button" value="3" onClick = "tresClick()" class="btnDigito"></td>
+                        <td><input type="button" value="+" onClick = "masClick()" class="btnOperador"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="button" value="0" onClick = "ceroClick()" class="btnDigito"></td>
+                        <td><input type="button" value="." onClick = "puntoClick()" class="btnDigito"></td>
+                        <td><input type="button" value="C" onClick = "cClick()" class="btnDigito"></td>
+                        <td><input type="button" value="=" onClick = "igualClick()" class="btnIgual"></td>
+                    </tr>
+                </table>
+            </form>
+        </div> 
+    </section>
+
+    <script>
+        function mrcClick(){
+            calculadora.mrc();
+        }
+        function mMenosClick(){
+            calculadora.mMenos();
+        }
+        function mMasClick(){
+            calculadora.mMas();
+        }
+        function divClick(){
+            calculadora.división();
+        }
+        function sieteClick(){
+            calculadora.dígitos("7");
+        }
+        function ochoClick(){
+            calculadora.dígitos("8");
+        }
+        function nueveClick(){
+            calculadora.dígitos("9");  
+        }
+        function mulClick(){
+            calculadora.multiplicación(); 
+        }
+        function cuatroClick(){
+            calculadora.dígitos("4");
+        }
+        function cincoClick(){
+            calculadora.dígitos("5");
+        }
+        function seisClick(){
+            calculadora.dígitos("6");
+        }
+        function menosClick(){
+            calculadora.resta();
+        }
+        function unoClick(){
+            calculadora.dígitos("1");
+        }
+        function dosClick(){
+            calculadora.dígitos("2");
+        }
+        function tresClick(){
+            calculadora.dígitos("3");
+        }
+        function masClick(){
+            calculadora.suma();
+        }
+        function ceroClick(){
+            calculadora.dígitos(0);
+        }
+        function puntoClick(){
+            calculadora.punto();
+        }
+        function cClick(){
+            calculadora.borrar();    
+        }
+        function igualClick(){
+            calculadora.igual();
+        }
+   </script>
+
+</body>
+</html>

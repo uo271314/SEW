@@ -1,0 +1,13 @@
+#map {
+    height: 380px;
+    width: 90%;
+    margin: 0 auto;
+}
+#mapa{
+    text-align: center;
+    color:rgb(6, 58, 14);
+    background-color: rgb(78, 169, 126);
+    border: solid 2px rgb(6, 58, 14);
+    width: 800px;
+    margin-left: 20%;
+}

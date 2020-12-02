@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 4</title>
+    <meta name="author" content="Laura Delgado"/>
+    <meta name="desciption" content="Bloque 3 SEW"/>
+ 
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+    <script src="CalculadoraCientifica.js"></script>
+</head>
+   
+<body>
+    <section id = "interfaz">
+        <h1>Calculadora Científica</h1> 
+        <div id = "interfazCalculadora">
+            <form>
+                <div id="interfazPantalla">
+                    <input type="text" id="pantalla" disabled />
+
+                <table id="interfazTeclasPantalla">
+                    <tr>
+                        <td><input type="button" value="DEG" onClick = "DEGClick()" class="btnPantalla" id="btnGrados"></td>
+                        <td><input type="button" value="HYP" onClick = "HYPClick()" class="btnPantallaD" disabled></td>
+                        <td><input type="button" value="F-E" onClick = "FEClick()" class="btnPantallaD" disabled></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="MC" onClick = "MCClick()" class="btnPantalla"></td>
+                        <td><input type="button" value="MR" onClick = "MRClick()" class="btnPantallaD" disabled></td>
+                        <td><input type="button" value="M+" onClick = "MMasClick()" class="btnPantalla"></td>
+                        <td><input type="button" value="M-" onClick = "MMenosClick()" class="btnPantalla"></td>
+                        <td><input type="button" value="MS" onClick = "MSClick()" class="btnPantallaD" disabled></td>
+                    </tr>
+                </table>
+                </div>
+
+                <table id="interfazTeclas">
+                    <tr>
+                        <td><input type="button" value="x²" onClick = "alCuadradoClick()" class="btnAccion"></td>
+                        <td><input type="button" value="xʸ" onClick = "elevadoYClick()" class="btnAccion"></td>
+                        <td><input type="button" value="sin" onClick = "sinClick()" class="btnAccion"></td>
+                        <td><input type="button" value="cos" onClick = "cosClick()" class="btnAccion"></td>
+                        <td><input type="button" value="tan" onClick = "tanClick()" class="btnAccion"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="button" value="√" onClick = "raizClick()" class="btnAccion"></td>
+                        <td><input type="button" value="10ˣ" onClick = "diezElevadoXClick()" class="btnAccion"></td>
+                        <td><input type="button" value="log" onClick = "logClick()" class="btnAccion"></td>
+                        <td><input type="button" value="Exp" onClick = "ExpClick()" class="btnAccion"></td>
+                        <td><input type="button" value="Mod" onClick = "ModClick()" class="btnAccion"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="button" value="↑" onClick = "UltimoResultadoClick()" class="btnAccion"></td>
+                        <td><input type="button" value="CE" onClick = "CEClick()" class="btnAccion"></td>
+                        <td><input type="button" value="C" onClick = "CClick()" class="btnAccion"></td>
+                        <td><input type="button" value="⨂" onClick = "eliminaUltCaracterClick()" class="btnAccion"></td>
+                        <td><input type="button" value="÷" onClick = "divClick()" class="btnAccion"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="button" value="π" onClick = "piClick()" class="btnAccion"></td>
+                        <td><input type="button" value="7" onClick = "sieteClick()" class="btnDigito"></td>
+                        <td><input type="button" value="8" onClick = "ochoClick()" class="btnDigito"></td>
+                        <td><input type="button" value="9" onClick = "nueveClick()" class="btnDigito"></td>
+                        <td><input type="button" value="x" onClick = "mulClick()" class="btnAccion"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="button" value="n!" onClick = "factorialClick()" class="btnAccion"></td>
+                        <td><input type="button" value="4" onClick = "cuatroClick()" class="btnDigito"></td>
+                        <td><input type="button" value="5" onClick = "cincoClick()" class="btnDigito"></td>
+                        <td><input type="button" value="6" onClick = "seisClick()" class="btnDigito"></td>
+                        <td><input type="button" value="-" onClick = "menosClick()" class="btnAccion"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="button" value="±" onClick = "cambiarSignoClick()" class="btnAccion"></td>
+                        <td><input type="button" value="1" onClick = "unoClick()" class="btnDigito"></td>
+                        <td><input type="button" value="2" onClick = "dosClick()" class="btnDigito"></td>
+                        <td><input type="button" value="3" onClick = "tresClick()" class="btnDigito"></td>
+                        <td><input type="button" value="+" onClick = "masClick()" class="btnAccion"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="button" value="(" onClick = "abrirParentesisClick()" class="btnAccion"></td>
+                        <td><input type="button" value=")" onClick = "cerrarParentesisClick()" class="btnAccion"></td>
+                        <td><input type="button" value="0" onClick = "ceroClick()" class="btnDigito"></td>
+                        <td><input type="button" value="," onClick = "comaClick()" class="btnDigito"></td>
+                        <td><input type="button" value="=" onClick = "igualClick()" class="btnAccion"></td>
+                    </tr>
+                </table>
+            </form>
+        </div> 
+    </section>
+
+    <script>
+        function divClick(){
+            calculadora.división();
+        }
+        function sieteClick(){
+            calculadora.dígitos("7");
+        }
+        function ochoClick(){
+            calculadora.dígitos("8");
+        }
+        function nueveClick(){
+            calculadora.dígitos("9");  
+        }
+        function mulClick(){
+            calculadora.multiplicación(); 
+        }
+        function cuatroClick(){
+            calculadora.dígitos("4");
+        }
+        function cincoClick(){
+            calculadora.dígitos("5");
+        }
+        function seisClick(){
+            calculadora.dígitos("6");
+        }
+        function menosClick(){
+            calculadora.resta();
+        }
+        function unoClick(){
+            calculadora.dígitos("1");
+        }
+        function dosClick(){
+            calculadora.dígitos("2");
+        }
+        function tresClick(){
+            calculadora.dígitos("3");
+        }
+        function masClick(){
+            calculadora.suma();
+        }
+        function ceroClick(){
+            calculadora.dígitos(0);
+        }
+        function comaClick(){
+            calculadora.punto();
+        }
+        function igualClick(){
+            calculadora.igual();
+        }
+        function DEGClick(){
+            calculadora.DEGRAD();
+        }
+        function HYPClick(){
+            // deshabilitado
+        }
+        function FEClick(){
+            // deshabilitado
+        }
+        function MCClick(){
+            calculadora.mrc();
+        }
+        function MRClick(){
+            // deshabilitado
+        }
+        function MMasClick(){
+            calculadora.mMas();
+        }
+        function MMenosClick(){
+            calculadora.mMenos();
+        }
+        function MSClick(){
+            // deshabilitado
+        }
+        function alCuadradoClick(){
+            calculadora.alCuadrado();
+        }
+        function elevadoYClick(){
+            calculadora.elevadoY();
+        }
+        function sinClick(){
+            calculadora.seno();
+        }
+        function cosClick(){
+            calculadora.coseno();
+        }
+        function tanClick(){
+            calculadora.tangente();
+        }
+        function raizClick(){
+            calculadora.raiz();
+        }
+        function diezElevadoXClick(){
+            calculadora.diezElevadoX();
+        }
+        function logClick(){
+            calculadora.logaritmo();
+        }
+        function ExpClick(){
+            calculadora.exponente();
+        }
+        function ModClick(){
+            calculadora.modulo();
+        }
+        function UltimoResultadoClick(){
+            calculadora.ultRes();
+        }
+        function CEClick(){
+            calculadora.CE();
+        }
+        function CClick(){
+            calculadora.borrar();
+        }
+        function eliminaUltCaracterClick(){
+            calculadora.eliminaUltCaracter();
+        }
+        function piClick(){
+            calculadora.pi();
+        }
+        function factorialClick(){
+            calculadora.factorial();
+        }
+        function cambiarSignoClick(){
+            calculadora.cambioSigno();
+        }
+        function abrirParentesisClick(){
+            calculadora.abrirParentesis();
+        }   
+        function cerrarParentesisClick(){
+            calculadora.cerrarParentesis();
+        }
+   </script>
+
+</body>
+</html>

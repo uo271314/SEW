@@ -1,0 +1,64 @@
+button{
+    background-color: darkblue;
+    color:white;
+}
+h1{
+    color:black;
+    background-color: inherit;
+}
+h2{
+    color:darkblue;
+    background-color: inherit;
+}
+#wicon{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    width: 80px;
+    height: 80px;
+}
+#ciu{
+    padding-left: 20px;
+    border: solid 1px darkblue;
+    width: 170px;
+    margin-bottom: 20px;
+}
+#pieImg{
+    position: absolute;
+    top: 260px;
+    left: 310px;
+    text-transform: capitalize;
+}
+#temp{
+    padding-left: 20px;
+    border: dashed 3px darkblue;
+    width: 300px;
+    margin-bottom: 20px;
+}
+#sol{
+    padding-left: 20px;
+    border: dashed 3px darkblue;
+    width: 180px;
+    margin-bottom: 20px;
+}
+#viento{
+    padding-left: 20px;
+    border: dashed 3px darkblue;
+    width: 290px;
+    margin-bottom: 20px;
+}
+#info{
+    padding-left: 20px;
+    border: dashed 3px darkblue;
+    width: 190px;
+    margin-bottom: 20px;
+}
+.tomado{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.linea{
+    display: inline-block;
+    margin-right: 20px;
+}

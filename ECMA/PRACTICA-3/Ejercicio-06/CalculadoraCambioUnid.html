@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 6</title>
+    <meta name="author" content="Laura Delgado"/>
+    <meta name="desciption" content="Bloque 3 SEW"/>
+ 
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="CalculadoraCambioUnid.css" />
+    <script src="CalculadoraCambioUnid.js"></script>
+</head>
+   
+<body>
+    <section id="interfaz">
+        <h1>Calculadora conversora métrico/imperial</h1>
+        <h2>(longitud y masa)</h2>
+        <div id="interfazCalculadora">
+            <form name="formulario">
+                <div id="conversor">
+                    <input type="radio" id="Longitud" name="seleccionaConversor" value="Longitud" onchange="cargaConversor()" checked>
+                    <label for="Longitud">Longitud</label>
+                    <input type="radio" id="Masa" name="seleccionaConversor" value="Masa" onchange="cargaConversor()">
+                    <label for="Masa">Masa</label>
+                </div>
+
+                <div id="valorIntroducido">
+                    <input type="text" id="introduce"/>
+                    <select name="unidades">
+                        <option value="cm">cm</option>
+                        <option value="pulgadas(in)">pulgadas(in)</option>
+                        <option value="pies(ft)">pies(ft)</option>
+                    </select>
+                </div>
+
+                <div id="convertirA">
+                    <div id="txtConv">
+                        <label for="unidConvA">convertir a:</label>  
+                    </div>
+                    <div id="cbConv">
+                        <select name="unidadesConvertirA" id="unidConvA">
+                            <option value="cm">cm</option>
+                            <option value="pulgadas(in)">pulgadas(in)</option>
+                            <option value="pies(ft)">pies(ft)</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <div>
+                    <input type="text" id="resultado" value="Resultado" disabled/>
+                    <input type="button" value="Enter" onClick = "EnterClick()" class = "btn">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        var longitud = new Array("cm","pulgadas(in)","pies(ft)");
+        var masa = new Array("kg","libras","onzas","stone");
+
+        function cargaConversor(){
+            var selector = getRadioButtonSelectedValue(document.getElementsByName("seleccionaConversor"));
+            if (selector == 'Masa')
+                selector = masa;
+            else
+                selector = longitud;
+            var numOpciones = selector.length;
+            document.formulario.unidades.length = numOpciones;
+            document.formulario.unidadesConvertirA.length = numOpciones;
+            for (var i=0; i<numOpciones; i++){
+                document.formulario.unidades.options[i].value = selector[i];
+                document.formulario.unidades.options[i].text = selector[i];
+                document.formulario.unidadesConvertirA.options[i].value = selector[i];
+                document.formulario.unidadesConvertirA.options[i].text = selector[i];
+            }
+            document.formulario.unidades.options[0].selected = true;
+            document.formulario.unidadesConvertirA.options[0].selected = true;
+        }
+        function getRadioButtonSelectedValue(ctrl){
+            for(var i=0; i<ctrl.length; i++)
+                if(ctrl[i].checked)
+                    return ctrl[i].value;
+        }
+    </script>
+
+    <script>
+        function EnterClick(){
+            calculadora.enter();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rutas>
+    <ruta>
+        <nombre>Tren de los lagos</nombre>
+        <tipo>Paisajística</tipo>
+        <dificultad>Fácil</dificultad>
+        <tiempo fechaInicio="29/09/2020" horaInicio="10:40" duracion="2 horas"></tiempo>
+        <agencia>eDreams</agencia>
+        <descripcion>Trayecto entre la ciudad de Lleida y la Villa de Pobla de Segur. Es un tren histórico con locomotoras diesel de 1968 desde el que se podrán ver espectaculares paisajes de montañas, bosques y grandes extensiones de agua.</descripcion>
+        <personasAdecuadas>Familias</personasAdecuadas>
+        <localizacion>
+            <lugarInicio>Lleida</lugarInicio>
+            <direccionInicio>Estación de Lleida Pirineus</direccionInicio>
+            <coordenadasInicio longitud="0.63214" latitud="41.62109" altitud="155"></coordenadasInicio>
+        </localizacion>
+        <referencia>Info general: https://saposyprincesas.elmundo.es/actividades-ninos/lleida/aire-libre/rutas-y-excursiones/tren-lagos/</referencia>
+        <referencia>Info histórica: https://www.escapadarural.com/blog/el-tren-de-los-lagos/</referencia>
+        <referencia>Reservas y horarios: http://www.trendelsllacs.cat/es/inicio/</referencia>
+        <recomendacion>8/10</recomendacion>
+        <hito nombre="Estación de Cellers" tiempoHitoAnterior="1hora 34mins">
+            <descripcion>Estación de tren del pueblo de Cellers</descripcion>
+            <coordenadasInicio longitud="0.882954" latitud="42.058671" altitud="396"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="70km"></distanciaHitoAnterior>
+            <foto>Foto1: https://upload.wikimedia.org/wikipedia/commons/1/15/Castell_de_Mur._Gu%C3%A0rdia_de_Tremp._Cellers._Estaci%C3%B3_de_Cellers-Llimiana_2.JPG</foto>
+            <foto>Foto2: https://1.bp.blogspot.com/_qmDeDmdEsl8/S7Njp5b0AbI/AAAAAAAAADE/RTtONyfv2hw/s1600/Pant%C3%A0+de+cellers.jpg</foto>
+            <foto>Foto3: https://www.monestirs.cat/monst/segar/sa20tora/Celdoni-Ermenter-02.jpg</foto>
+            <foto>Foto4: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Castell_de_Mur._Gu%C3%A0rdia_de_Noguera._Cellers_16.JPG/230px-Castell_de_Mur._Gu%C3%A0rdia_de_Noguera._Cellers_16.JPG</foto>
+            <foto>Foto5: https://www.catalunyamedieval.es/wp-content/gallery/monestir-de-cellers-galeria/02-monestir-de-cellers-tora-120310_004.jpg</foto>
+        </hito>
+        <hito nombre="Estación de Tremp" tiempoHitoAnterior="13 mins">
+            <descripcion>Estación de tren del pueblo de Tremp</descripcion>
+            <coordenadasInicio longitud="0.891122" latitud="42.167325" altitud="468"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="14km"></distanciaHitoAnterior>
+            <foto>Foto1: https://magicospirineos.com/wp-content/uploads/2017/03/Rambla-de-Tremp.jpg</foto>
+            <foto>Foto2: https://media.er2.co/es/lleida/5c62e54b75b97/635/5c62e9dbe1617.jpg</foto>
+            <foto>Foto3: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tremp._Estaci%C3%B3_de_tren_2.JPG/1200px-Tremp._Estaci%C3%B3_de_tren_2.JPG</foto>
+            <video>Video1: https://www.youtube.com/watch?v=PyRcO-DU9xg</video>
+        </hito>
+        <hito nombre="Estación de la Pobla de Segur" tiempoHitoAnterior="20 mins">
+            <descripcion>Estación de tren del municipio Pobla de Segur</descripcion>
+            <coordenadasInicio longitud="0.965748" latitud="42.239888" altitud="524"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="13km"></distanciaHitoAnterior>
+            <foto>Foto1: https://4.bp.blogspot.com/-8S7nuoN2QfU/VTJSoP-I7zI/AAAAAAAAAXA/JiEfeLwH3eM/s1600/pobla.jpg</foto>
+            <video>Video1: https://www.youtube.com/watch?v=Tm72jprPnbM</video>
+            <video>Video2: https://www.youtube.com/watch?v=6620zsp9Syc</video>
+            <video>Video3: https://www.youtube.com/watch?v=LXwxEEmaSCA</video>
+        </hito>
+    </ruta>
+
+    <ruta>
+        <nombre>Tren transcantábrico</nombre>
+        <tipo>Lujo, turística</tipo>
+        <dificultad>Fácil</dificultad>
+        <tiempo fechaInicio="02/12/2020" duracion="4 días"></tiempo>
+        <tiempo fechaInicio="25/12/2020" duracion="4 días"></tiempo>
+        <agencia>Renfe</agencia>
+        <descripcion>Travesía en el tiempo hasta los años 20 del siglo pasado por una de las zonas más bellas de España. El Transcantábrico recorre el Norte de España (desde León hasta Santiago de Compostela), con todas las comodidades y prestaciones de un verdadero hotel de lujo sobre raíles. Los salones y suites de El Transcantábrico combinan el ayer con todas las comodidades de hoy, un tren de lujo para disfrutar un viaje lleno de atenciones, servicios y actividades. Itinerario corto:León-Santander.</descripcion>
+        <personasAdecuadas>Adultos</personasAdecuadas>
+        <localizacion>
+            <lugarInicio>León</lugarInicio>
+            <direccionInicio>Estación Renfe Avda.Palencia</direccionInicio>
+            <coordenadasInicio longitud="-5.581578" latitud="42.595374" altitud="837"></coordenadasInicio>
+        </localizacion>
+        <referencia>Info general: https://www.turismoentren.com/tren-transcantabrico.php</referencia>
+        <referencia>Info wikipedia: https://es.wikipedia.org/wiki/Transcant%C3%A1brico</referencia>
+        <referencia>Reservas y horarios: https://viajerosaltren.com/tours/tren-transcantabrico/</referencia>
+        <recomendacion>9/10</recomendacion>
+        <hito nombre="Estación de Cistierna" tiempoHitoAnterior="2horas 10mins">
+            <descripcion>Estación de tren del municipio de Cistierna</descripcion>
+            <coordenadasInicio longitud="-5.130800" latitud="42.803160" altitud="939"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="137km"></distanciaHitoAnterior>
+            <foto>Foto1: https://www.diariodevalderrueda.es/multimedia/images/fevecistierna2_2.jpg</foto>
+        </hito>
+        <hito nombre="Estación de Villasana de Mena" tiempoHitoAnterior="3horas">
+            <descripcion>Estación de tren de la aldea de Villasana de Mena</descripcion>
+            <coordenadasInicio longitud="-3.283462" latitud="43.100600" altitud="319"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="210km"></distanciaHitoAnterior>
+            <foto>Foto1: https://upload.wikimedia.org/wikipedia/commons/e/e6/VillasanaDeMenaConventoDeSantaAnaVillasanaDeMena.jpg</foto>
+        </hito>
+        <hito nombre="Bilbao" tiempoHitoAnterior="30mins">
+            <descripcion>Estación de tren del municipio Bilbao</descripcion>
+            <coordenadasInicio longitud="-2.949174" latitud="43.260419" altitud="19"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="44km"></distanciaHitoAnterior>
+            <foto>Foto1: https://www.truecalia.com/blog/wp-content/uploads/Estaci%C3%B3n-de-tren-Bilbao-Abando-Indalecio-Prieto-PORTADA.jpg</foto>
+        </hito>
+        <hito nombre="Santander" tiempoHitoAnterior="1hora 40mins">
+            <descripcion>Estación de tren de la ciudad de Santander</descripcion>
+            <coordenadasInicio longitud="-3.809720" latitud="43.459325" altitud="15"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="98km"></distanciaHitoAnterior>
+            <foto>Foto1: https://upload.wikimedia.org/wikipedia/commons/4/47/Santander_RENFE_station.JPG</foto>
+        </hito>
+    </ruta>
+
+    <ruta>
+        <nombre>Tren ave Madrid-Valencia</nombre>
+        <tipo>Rápida</tipo>
+        <dificultad>Fácil</dificultad>
+        <tiempo duracion="2horas 20mins"></tiempo>
+        <tiempo horaInicio="22:30" duracion="2horas 20mins"></tiempo>
+        <agencia>Ave</agencia>
+        <descripcion>Viaje de alta velocidad entre Madrid y Valencia.</descripcion>
+        <personasAdecuadas>Todos los públicos</personasAdecuadas>
+        <localizacion>
+            <lugarInicio>Madrid</lugarInicio>
+            <direccionInicio>Estación Barajas</direccionInicio>
+            <coordenadasInicio longitud="-3.594879" latitud="40.465421" altitud="667"></coordenadasInicio>
+        </localizacion>
+        <referencia>Info general: https://www.avemadridvalencia.info/ruta.html</referencia>
+        <referencia>Reservas: https://www.trenes.com/ave/madrid-valencia/</referencia>
+        <referencia>Reservas y horarios: https://www.renfe.com/es/es</referencia>
+        <recomendacion>10/10</recomendacion>
+        <hito nombre="Barajas" tiempoHitoAnterior="0mins">
+            <descripcion>Estación de tren de Madrid</descripcion>
+            <coordenadasInicio longitud="-3.594879" latitud="40.465421" altitud="667"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="0km"></distanciaHitoAnterior>
+            <foto>Foto1: https://www.aeropuertomadrid-barajas.com/images/tren-metro-t4-madrid-barajas.jpg</foto>
+        </hito>
+        <hito nombre="Estación de Atocha" tiempoHitoAnterior="40mins">
+            <descripcion>Estación de tren del municipio de Madrid</descripcion>
+            <coordenadasInicio longitud="-3.690563" latitud="40.406392" altitud="667"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="17km"></distanciaHitoAnterior>
+            <foto>Foto1: https://static1.abc.es/media/espana/2019/09/02/estacion-atocha-renfe-kP2D--1200x630@abc.jpg</foto>
+        </hito>
+        <hito nombre="Valencia" tiempoHitoAnterior="1hora 38mins">
+            <descripcion>Estación de tren de Valencia</descripcion>
+            <coordenadasInicio longitud="-0.381747" latitud="39.459986" altitud="102"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="354km"></distanciaHitoAnterior>
+            <foto>Foto1: https://www.truecalia.com/blog/wp-content/uploads/imagen-portada.jpg</foto>
+        </hito>
+    </ruta>
+
+    <ruta>
+        <nombre>Tren Toraño-Ribadesella</nombre>
+        <tipo>Turismo</tipo>
+        <dificultad>Fácil</dificultad>
+        <tiempo duracion="16min"></tiempo>
+        <tiempo horaInicio="10:00" duracion="16mins"></tiempo>
+        <tiempo fechaInicio="28/07/2021" horaInicio="15:30" duracion="16mins"></tiempo>
+        <tiempo fechaInicio="26/06/2021" duracion="16mins"></tiempo>
+        <agencia>Renfe</agencia>
+        <descripcion>Viaje para visitar Ribadesella.</descripcion>
+        <personasAdecuadas>Todos los públicos</personasAdecuadas>
+        <localizacion>
+            <lugarInicio>Toraño</lugarInicio>
+            <direccionInicio>Estación Toraño</direccionInicio>
+            <coordenadasInicio longitud="-5.118387" latitud="43.412217" altitud="20"></coordenadasInicio>
+        </localizacion>
+        <referencia>Info general: https://www.ribadesella.es/</referencia>
+        <referencia>Restaurantes Ribadesella: https://www.tripadvisor.es/Restaurants-g660742-Ribadesella_Asturias.html</referencia>
+        <referencia>Reservas y horarios: https://www.renfe.com/es/es</referencia>
+        <recomendacion>7/10</recomendacion>
+        <hito nombre="Cuevas" tiempoHitoAnterior="7mins">
+            <descripcion>Estación de tren de Cuevas</descripcion>
+            <coordenadasInicio longitud="-5.073760" latitud="43.431611" altitud="600"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="6km"></distanciaHitoAnterior>
+            <foto>Foto1: https://www.verpueblos.com/fotos_originales/7/4/7/00836747.jpg</foto>
+        </hito>
+        <hito nombre="Llovio" tiempoHitoAnterior="4mins">
+            <descripcion>Estación de tren de Llovio</descripcion>
+            <coordenadasInicio longitud="-5.055697" latitud="43.440796" altitud="20"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="3km"></distanciaHitoAnterior>
+            <foto>Foto1: https://www.vialibre.org/multimedia/galerias/Feve_Bilbferr/bilbferr_013.jpg</foto>
+        </hito>
+        <hito nombre="Ribadesella" tiempoHitoAnterior="5mins">
+            <descripcion>Estación de tren de Ribadesella</descripcion>
+            <coordenadasInicio longitud="-5.054670" latitud="43.459477" altitud="897"></coordenadasInicio>
+            <distanciaHitoAnterior unidades="4km"></distanciaHitoAnterior>
+            <foto>Foto1: https://static1.elcomercio.es/www/multimedia/201908/29/media/cortadas/ribadesella-kVAH-U901858723pXC-624x385@El%20Comercio.jpg</foto>
+        </hito>
+    </ruta>
+</rutas>

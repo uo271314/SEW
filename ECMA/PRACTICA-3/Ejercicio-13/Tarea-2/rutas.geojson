@@ -1,0 +1,35 @@
+{
+    "type": "FeatureCollection",
+    "name": "Rutas",
+    "crs": {"type": "name", "properties":{"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}},
+    "features": [
+        {"type": "Feature","properties":{"Name": "Lleida", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 0.63214,41.62109,155 ]}},
+        {"type": "Feature","properties":{"Name": "Cellers", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 0.882954,42.058671,396 ]}},
+        {"type": "Feature","properties":{"Name": "Tremp", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 0.891122,42.167325,468 ]}},
+        {"type": "Feature","properties":{"Name": "Segur", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ 0.965748,42.239888,524 ]}},
+
+        { "type": "Feature", "properties": { "Name": "Tren de los lagos", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "LineString", "coordinates": [ [ 0.63214,41.62109,155 ], [ 0.882954,42.058671,396 ], [ 0.891122,42.167325,468 ], [ 0.965748,42.239888,524 ] ] } },
+
+        { "type": "Feature", "properties": { "Name": "León", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -5.581578,42.595374,837] } },
+        { "type": "Feature", "properties": { "Name": "Cistierna", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -5.130800,42.803160,939 ] } },
+        { "type": "Feature", "properties": { "Name": "Villasana de Mena", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -3.283462,43.100600,319 ] } },
+        { "type": "Feature", "properties": { "Name": "Bilbao", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -2.949174,43.260419,19 ] } },
+        { "type": "Feature", "properties": { "Name": "Santander", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -3.809720,43.459325,15 ] } },
+
+        { "type": "Feature", "properties": { "Name": "Tren transcantábrico", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "LineString", "coordinates": [ [ -5.581578,42.595374,837], [ -5.130800,42.803160,939 ], [ -3.283462,43.100600,319 ], [ -2.949174,43.260419,19 ], [ -3.809720,43.459325,15 ] ] } },
+
+        { "type": "Feature", "properties": { "Name": "Madrid", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -3.594879,40.465421,667 ] } },
+        { "type": "Feature", "properties": { "Name": "Barajas", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -3.594879,40.465421,667 ] } },
+        { "type": "Feature", "properties": { "Name": "Atocha", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -3.690563,40.406392,667 ] } },
+        { "type": "Feature", "properties": { "Name": "Valencia", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -0.381747,39.459986,102 ] } },
+
+        { "type": "Feature", "properties": { "Name": "Tren ave Madrid-Valencia", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "LineString", "coordinates": [ [ -3.594879,40.465421,667 ], [ -3.594879,40.465421,667 ], [ -3.690563,40.406392,667 ], [ -0.381747,39.459986,102 ] ] } },
+
+        { "type": "Feature", "properties": { "Name": "Toraño", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -5.118387,43.412217,20 ] } },
+        { "type": "Feature", "properties": { "Name": "Cuevas", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -5.073760,43.431611,600 ] } },
+        { "type": "Feature", "properties": { "Name": "Llovio", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -5.055697,43.440796,20 ] } },
+        { "type": "Feature", "properties": { "Name": "Ribadesella", "description": "", "altitudeMode": "absolute", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "Point", "coordinates": [ -5.054670,43.459477,897 ] } },
+
+        { "type": "Feature", "properties": { "Name": "Tren Toraño-Ribadesella", "tessellate": -1, "extrude": 0, "visibility": -1 }, "geometry": { "type": "LineString", "coordinates": [  [ -5.118387,43.412217,20 ], [ -5.073760,43.431611,600 ], [ -5.055697,43.440796,20 ], [ -5.054670,43.459477,897 ] ] } }
+    ]
+}

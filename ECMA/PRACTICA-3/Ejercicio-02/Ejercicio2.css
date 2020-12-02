@@ -1,0 +1,29 @@
+/* El css debe cambiar el estilo de h1, h2, p y el fondo */
+
+h1{
+    background-color: crimson;
+    color: white;
+    text-transform: uppercase;
+    padding: 50px 25px;     
+    margin: 5px;
+    text-align: center;
+    border: 3px solid white;
+}
+
+h2{
+    color:violet;
+    background-color: inherit;
+    text-align:center;
+}
+
+p{
+    font: 400 15px Arial,sans-serif; 
+    line-height: 1.8;
+    color:white;
+    background-color: inherit;
+}
+
+body{
+    background-color:darkslategray;
+    color: inherit;
+}

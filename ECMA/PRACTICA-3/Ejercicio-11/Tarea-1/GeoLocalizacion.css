@@ -1,0 +1,13 @@
+#ubicacion{
+    border: solid 2px rgb(124, 97, 133);
+    width: 400px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(59, 20, 79);
+    color:rgb(124, 97, 133);
+    margin: 0 auto;
+}
+#Geo{
+    background-color:  rgb(124, 97, 133);
+    color:rgb(59, 20, 79);
+}
